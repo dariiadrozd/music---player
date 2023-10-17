@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #343434;
+    width: 1200px;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    height: 50vh;
+    margin: 300px 325px;
+    width: 540px;
+    height: 169px;
+    background-color: #FFFFFF;
+    border-radius: 14.696px;
+}
+
+.wrapper .mainImg {
+    background-image: url(./zdjecia.img/thumbnail-img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 169px;
+    height: 169px;
+}
+
+.wrapper .mainInfo {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.wrapper .mainInfo .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wrapper .mainInfo .title #nameOfSong {
+    font: 700 18px "Inter";
+    color: #000;
+    line-height: normal;
+}
+
+.wrapper .mainInfo {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.wrapper .mainInfo .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wrapper .mainInfo .title #nameOfSong {
+    font: 700 18px "Inter";
+    color: #000;
+    line-height: normal;
+}
+
+.wrapper .mainInfo .title .Btn {
+    background-image: url(./zdjecia.img/spotifyBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    margin-left: 150px;
+}
+
+.wrapper .mainInfo #nameOfArtist {
+    color: var(--black-light, #454545);
+    font: 400 14px "Inter";
+    margin-top: 5px;
+}
+
+.wrapper .mainInfo .line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wrapper .mainInfo .line .takjest {
+    margin-top: 24px;
+    background: #DADADA;
+    width: 257px;
+    height: 3px;
+}
+
+.wrapper .mainInfo .line .time {
+    color: var(--black-light, #454545);
+    font: 400 12px "Inter";
+    margin-top: 15px;
+}
+
+.wrapper .mainInfo .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.wrapper .mainInfo .buttons .repeatSong {
+    background-image: url(./zdjecia.img/repeatBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-top: 27px;
+}
+
+.wrapper .mainInfo .buttons .back {
+    background-image: url(./zdjecia.img/prevBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    margin-top: 22px;
+}
+
+.wrapper .mainInfo .buttons .play {
+    background-image: url(./zdjecia.img/playBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+.wrapper .mainInfo .buttons .next {
+    background-image: url(./zdjecia.img/nextBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    margin-top: 22px;
+}
+
+.wrapper .mainInfo .buttons .heart {
+    background-image: url(./zdjecia.img/favBtn.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 21px;
+    height: 21px;
+    margin-top: 27px;
+}
